@@ -1,7 +1,7 @@
 #######################################################################################################
 # Module history:                                                                                     #
 #   Date:       Author:                    Reason:                                                    #
-#   23.07.2023  Gaina Stefan               Initial version.                                           #
+#   08.08.2023  Gaina Stefan               Initial version.                                           #
 # Description: This Makefile is used to generate the keylogger library.                               #
 #######################################################################################################
 
