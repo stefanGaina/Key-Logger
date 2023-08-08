@@ -1,0 +1,22 @@
+# VSCode settings
+.vscode
+
+# Objects
+obj
+*.o
+
+# Libraries
+key-logger/lib
+
+# Executables
+key-logger-mail/bin
+
+# Unit-test
+coverage_report
+*.gcno
+*.gcda
+*.gcov
+*.info
+
+# Misc
+gmail_password
