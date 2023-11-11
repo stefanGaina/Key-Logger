@@ -24,7 +24,7 @@
 /**
  * @brief This is a blocking function, logging the key presses and sending e-mails.
  * @param void
- * @return false - key logger failed to start | true - key logger ran successfully.
+ * @return true - key logger ran successfully | false - key logger failed to start.
 */
 extern bool key_logger_mail_run(void);
 

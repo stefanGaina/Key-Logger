@@ -26,11 +26,13 @@ INFO_FILES = $(COVERAGE_REPORT)/key-logger.info
 all:
 	$(MAKE) -C key-logger
 	$(MAKE) -C key-logger-mail
+	$(MAKE) -C key-logger-installer
 
 ### CLEAN SUBDIRECTORIES ###
 clean:
 	$(MAKE) clean -C key-logger
 	$(MAKE) clean -C key-logger-mail
+	$(MAKE) clean -C key-logger-installer
 
 ### MAKE UNIT-TESTS ###
 ut: create_dir
